@@ -51,7 +51,7 @@ namespace xadrez
             {
                 throw new TabuleiroException("A peça de origem escolhida não é sua!");
             }
-            if (tab.peca(pos).existeMovimentosPossiveis())
+            if (!tab.peca(pos).existeMovimentosPossiveis())
             {
                 throw new TabuleiroException("Não há movimentos possíveis para a peça de origem escolhida");
             }
