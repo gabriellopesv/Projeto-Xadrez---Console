@@ -57,7 +57,7 @@ namespace xadrez
                     mat[pos.linha, pos.coluna] = true;
                 }
 
-               
+                
             }
             else
             {
